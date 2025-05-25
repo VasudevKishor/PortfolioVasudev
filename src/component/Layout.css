@@ -1,0 +1,60 @@
+body {
+  background-color: #F9FAFB;
+  color: #1F2937;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  color: #1F2937;
+}
+
+a {
+  color: #2563EB;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button,
+.resume-button {
+  background-color: #2563EB;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+.resume-button:hover {
+  background-color: #1D4ED8;
+}
+
+section {
+  padding: 4rem 1.5rem;
+  background-color: #F9FAFB;
+}
+
+.card, .project-card, .experience-card {
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover, .project-card:hover, .experience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+footer {
+  background-color: #111827;
+  color: white;
+}
+
+.resume-button {
+  margin-left: 1rem;
+}

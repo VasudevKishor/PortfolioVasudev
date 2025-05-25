@@ -1,0 +1,61 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8fafc; /* Slate-50 */
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a; /* Slate-900 */
+  margin-right: auto;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav button {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  color: #334155; /* Slate-700 */
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav button:hover {
+  background-color: #e0f2fe; /* Light blue tint */
+  color: #0ea5e9; /* Sky-500 */
+}
+
+.resume-button {
+  background-color: #0ea5e9; /* Sky-500 */
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.25);
+}
+
+.resume-button:hover {
+  background-color: #0369a1; /* Sky-700 */
+  box-shadow: 0 6px 20px rgba(14, 165, 233, 0.35);
+}

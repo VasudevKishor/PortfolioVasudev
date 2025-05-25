@@ -1,0 +1,44 @@
+.portfolio-container {
+  min-height: 100vh;
+  background-color: #f3f4f6; /* Tailwind's gray-100 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.portfolio-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.5rem;
+}
+
+.intro-text {
+    font-size: 1.875rem; /* Tailwind's text-3xl */
+    font-weight: 600;
+    background: linear-gradient(to bottom, #00ffe7 0%, #3b82f6 60%, #000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.05em;
+    text-shadow: 0 2px 16px rgba(0,255,231,0.25), 0 1px 2px #000;
+}
+
+.name-text {
+  font-size: 2.25rem; /* Tailwind's text-4xl */
+  font-weight: 700;
+  color: #111827; /* Tailwind's gray-900 */
+  margin-bottom: 1rem;
+}
+
+.typewriter-text {
+  font-size: 1.25rem; /* Tailwind's text-xl */
+  color: #2563eb; /* Tailwind's blue-600 */
+}
