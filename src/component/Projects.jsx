@@ -13,6 +13,11 @@ const projects = [
     details: "Features an admin portal for event coordination, centralized messaging, and budgeting. Built with Flask (Backend), React.js, MySQL, REST APIs, Axios, JavaScript, Python, FullCalendar, Tailwind CSS, Bootstrap.",
   },
   {
+    title: "DevOps Assistant Bot (Ongoing)",
+    description: "Automated assistant for DevOps tasks and documentation.",
+    details: "Uses Python and LangChain to assist in automating CI/CD setup, generating infra-as-code, and responding to commands.",
+  },
+  {
     title: "Fraud Detection using Machine Learning",
     description: "Research project on detecting fraud using machine learning.",
     details: "Working on bank account fraud detection using the BAF dataset. Implementing ML models like Decision Trees, Random Forests, and Neural Networks to enhance detection accuracy. Using Python, Scikit-learn, and TensorFlow.",
@@ -37,11 +42,7 @@ const projects = [
     description: "Developing deep learning models for coconut tree detection from aerial images.",
     details: "Working on object detection using models like RetinaNet, YOLOv5, and VarifocalNet. Developed datasets from high-resolution UAV images and low-resolution Google Earth images. Using TensorFlow and PyTorch for model training.",
   },
-  {
-    title: "DevOps Assistant Bot (Ongoing)",
-    description: "Automated assistant for DevOps tasks and documentation.",
-    details: "Uses Python and LangChain to assist in automating CI/CD setup, generating infra-as-code, and responding to commands.",
-  },
+  
   {
     title: "AI-Powered Stock Market Predictor",
     description: "Developing an AI model to predict stock market trends.",
