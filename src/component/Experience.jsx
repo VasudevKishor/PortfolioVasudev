@@ -10,6 +10,13 @@ const experiences = [
       "Worked on real-life projects with technologies including MySQL, NoSQL, Django, Flask, Next.js, Node.js, React.js, TypeScript, JavaScript, and Python.",
   },
   {
+    role: "Student Researcher",
+    company: "Amrita Vishwa Vidyapeetham, Coimbatore, Tamil Nadu",
+    duration: "February 2024 - Present",
+    description:
+      "",
+  },
+  {
     role: "Tech and Design Team Co-Head",
     company: "Genesis ’25",
     duration: "January 2025 - April 2025",
